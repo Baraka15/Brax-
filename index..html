@@ -1,0 +1,313 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <!-- GOOGLE SEO ELITE SETUP -->
+  <meta name="google-site-verification" content="ADD_YOUR_CODE_HERE" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baraka Emmanuel | Developer & Trader</title>  <!-- SEO -->  <meta name="description" content="Baraka Emmanuel – Python Developer, Trading Bot Engineer, Automation Specialist" />  <!-- Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --primary: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #020617, #0f172a);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+    }
+
+    header span {
+      color: var(--primary);
+    }
+
+    header p {
+      max-width: 600px;
+      margin: 20px auto;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 30px;
+      background: var(--primary);
+      color: #020617;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(56,189,248,0.3);
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .skill {
+      padding: 20px;
+      border-radius: 15px;
+      background: linear-gradient(145deg, #020617, #111827);
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project {
+      background: var(--card);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-8px);
+    }
+
+    .project-body {
+      padding: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      color: var(--muted);
+    }
+
+    @media(max-width: 900px) {
+      .about { grid-template-columns: 1fr; }
+      header h1 { font-size: 2.4rem; }
+    }
+  </style>  <!-- Open Graph -->  <meta property="og:title" content="Baraka Emmanuel | Trading Bot Developer" />
+  <meta property="og:description" content="Professional Python developer and trading bot engineer specializing in automation and algorithmic trading." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.jpg" />  <!-- Twitter Card -->  <meta name="twitter:card" content="summary_large_image" />  <!-- Structured Data -->  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Baraka Emmanuel",
+    "jobTitle": "Trading Bot Developer",
+    "url": "https://barakaemmanuel.com",
+    "sameAs": [
+      "https://t.me/brax2010"
+    ]
+  }
+  </script></head>
+<body>
+  <!-- NAVBAR -->
+  <nav style="position:fixed;top:0;width:100%;background:rgba(2,6,23,0.9);backdrop-filter:blur(10px);padding:15px 10%;display:flex;justify-content:space-between;align-items:center;z-index:1000;">
+    <strong style="color:#38bdf8;">Baraka</strong>
+    <div style="display:flex;gap:20px;">
+      <a href="#projects" style="color:#e5e7eb;text-decoration:none;">Projects</a>
+      <a href="#contact" style="color:#e5e7eb;text-decoration:none;">Contact</a>
+      <button onclick="toggleMode()" style="background:#38bdf8;border:none;border-radius:20px;padding:6px 14px;cursor:pointer;">🌓</button>
+    </div>
+  </nav>  <!-- HERO -->  <header style="padding-top:120px;">
+    <div>
+      <img src="profile.jpg" alt="Baraka Emmanuel" style="width:180px;height:180px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:4px solid var(--primary);box-shadow:0 10px 30px rgba(56,189,248,0.4);" />
+      <h1>Hi, I'm <span id="type"></span></h1>
+      <p>
+        Python Developer • Trading Bot Engineer • Automation Specialist
+        <br />I build intelligent systems that work while you sleep.
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>  <!-- ABOUT -->  <section>
+    <h2 class="section-title">About Me</h2>
+    <div class="about">
+      <div class="card">
+        <h3>Who I Am</h3>
+        <p>
+          I am a self-taught programmer and trading systems engineer focused on
+          Python, automation, and algorithmic trading. I specialize in building
+          real-world solutions, not theory.
+        </p>
+      </div>
+      <div class="card">
+        <h3>What I Do</h3>
+        <p>
+          ✔ Trading bots (MT5, strategy logic, risk control)<br />
+          ✔ Python automation tools<br />
+          ✔ Data-driven systems<br />
+          ✔ Personal & business web solutions
+        </p>
+      </div>
+    </div>
+  </section>  <!-- SKILLS -->  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <a class="skill" href="https://github.com/" target="_blank">GitHub</a>
+      <a class="skill" href="https://t.me/brax2010" target="_blank">Telegram</a>
+      <a class="skill" href="https://wa.me/256789368267" target="_blank">WhatsApp</a>
+      <a class="skill" href="mailto:andiadebayor5@gmail.com">Email</a>
+    </div>
+      <div class="skill">Trading Bots</div>
+      <div class="skill">MT5 Automation</div>
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">System Design</div>
+    </div>
+  </section>  <!-- DASHBOARD -->  <section id="dashboard">
+    <h2 class="section-title">Trading Dashboard</h2>
+    <div class="skills">
+      <div class="skill">Account Status: <strong>ACTIVE</strong></div>
+      <div class="skill">Strategy: <strong>Gold Scalping</strong></div>
+      <div class="skill">Risk Level: <strong>Low</strong></div>
+      <div class="skill">Automation: <strong>24/7</strong></div>
+    </div>
+  </section>  <!-- PROJECTS -->  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <div class="project-body">
+          <h3>Gold Scalping Bot</h3>
+          <p>High-speed XAUUSD trading bot with risk management and smart entry logic.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-body">
+          <h3>Automation System</h3>
+          <p>Python-based automation scripts for data, monitoring, and execution.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-body">
+          <h3>Personal Website</h3>
+          <p>Advanced responsive portfolio website built from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- CONTACT -->  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="about">
+      <div class="card">
+        <h3>Let’s Work Together</h3>
+        <p>If you want a trading bot, automation, or a professional system built, reach out.</p>
+        <p><strong>Email:</strong> andiadebayor5@gmail.com</p>
+        <p><strong>WhatsApp:</strong> +256789368267</p>
+      </div>
+      <div class="card">
+        <form action="https://formspree.io/f/xyzzabcd" method="POST">
+          <input type="text" placeholder="Your Name" required style="width:100%;padding:12px;margin-bottom:15px;border-radius:10px;border:none;" />
+          <input type="email" placeholder="Your Email" required style="width:100%;padding:12px;margin-bottom:15px;border-radius:10px;border:none;" />
+          <textarea placeholder="Your Message" required style="width:100%;padding:12px;height:120px;border-radius:10px;border:none;"></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>  <!-- SOCIALS -->  <section>
+    <h2 class="section-title">Connect With Me</h2>
+    <div class="skills">
+      <div class="skill">GitHub</div>
+      <div class="skill">Telegram</div>
+      <div class="skill">WhatsApp</div>
+      <div class="skill">LinkedIn</div>
+    </div>
+  </section>  <!-- FOOTER -->  <footer>
+    <p>© 2026 Baraka Emmanuel. Built with precision and ambition.</p>
+  </footer>  <script>
+    // typing effect
+    const text = "Baraka Emmanuel";
+    let i = 0;
+    function typeEffect() {
+      if (i < text.length) {
+        document.getElementById('type').innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, 100);
+      }
+    }
+    typeEffect();
+
+    // dark/light mode
+    let dark = true;
+    function toggleMode() {
+      document.body.style.background = dark ? '#f1f5f9' : 'linear-gradient(120deg,#020617,#0f172a)';
+      document.body.style.color = dark ? '#020617' : '#e5e7eb';
+      dark = !dark;
+    }
+
+
+    // contact form now handled by Formspree
+    function sendMessage(e) {
+      e.preventDefault();
+      alert("Message sent successfully! (Demo)");
+    }
+
+    // simple animation on scroll
+    // simple counter animation
+    const counters = document.querySelectorAll('.skill strong');
+    counters.forEach(c => c.style.color = '#38bdf8');
+
+    const cards = document.querySelectorAll('.card, .project, .skill');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.transform = 'translateY(0)';
+          entry.target.style.opacity = '1';
+        }
+      });
+    });
+
+    cards.forEach(card => {
+      card.style.transform = 'translateY(40px)';
+      card.style.opacity = '0';
+      observer.observe(card);
+    });
+  </script></body>
+</html>
